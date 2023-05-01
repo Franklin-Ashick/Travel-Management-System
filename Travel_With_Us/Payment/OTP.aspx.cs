@@ -18,11 +18,11 @@ namespace Travel_With_Us.Payment
             if (IsPostBack)
             {
                 // Twilio Account SID and Auth Token
-                const string accountSid = "ACecb9cd3e922d3f1cc3e91d87dbeadf2d";
-                const string authToken = "bd65617dfdd5080147e6cb49643bbe48";
+                const string accountSid = "Account ID";
+                const string authToken = "Token Number";
 
                 // Phone number to send OTP from (must be a Twilio verified phone number)
-                const string fromPhone = "+12708221626";
+                const string fromPhone = "+Phone Number";
 
                 // Generate a random 6-digit OTP
                 var rand = new Random();
